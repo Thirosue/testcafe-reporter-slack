@@ -1,4 +1,7 @@
 # TestCafe Reporter Slack 
+
+[![Build Status](https://travis-ci.org/Thirosue/testcafe-reporter-slack.svg?branch=master)](https://travis-ci.org/Thirosue/testcafe-reporter-slack)
+
 ###testcafe-reporter-slack
 
 This is a reporter for [TestCafe](http://devexpress.github.io/testcafe). It sends the output of the test to slack. 

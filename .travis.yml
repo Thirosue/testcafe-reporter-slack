@@ -1,6 +1,12 @@
+sudo: false
+
 language: node_js
+
 node_js:
-  - stable
-  - v4
-  - '0.12'
-  - '0.10'
+  - 'stable'
+
+script:
+  - rm -rf node_modules/
+  - npm install
+  - ./node_modules/.bin/gulp build
+  - ./node_modules/.bin/gulp preview
